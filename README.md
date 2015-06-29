@@ -4,7 +4,7 @@ http://drawing-tool.azurewebsites.net/
 ##Solution Details
 
 - Application was built in VisualStudio 2013, Using .Net framework 4.5
-- There are two way to run it: 
+- There are two ways to see it running?: 
   - via web in http://drawing-tool.azurewebsites.net/
   - A console Application: /ConsoleDrawingApp project
 - Core application resides in DrawinLibrary project.
