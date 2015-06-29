@@ -7,6 +7,6 @@ http://drawing-tool.azurewebsites.net/
 - There are two ways to see it running?: 
   - via web in http://drawing-tool.azurewebsites.net/
   - A console Application: /ConsoleDrawingApp project
-- Core application resides in DrawinLibrary project.
+- Core application resides in DrawingLibrary project.
 - To run unit test you need to use VisualStudio. Here some steps: https://msdn.microsoft.com/en-us/library/ms182470.aspx#RunTestsFromUnitTestExplorer
 
