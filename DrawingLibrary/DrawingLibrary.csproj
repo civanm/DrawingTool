@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A8BE9209-ADD8-46DC-977D-88C5FE749C5E}</ProjectGuid>
+    <ProjectGuid>{E55264CE-9116-472E-840D-2DA5542C8D07}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DrawinLibrary</RootNamespace>
