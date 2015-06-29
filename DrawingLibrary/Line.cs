@@ -3,31 +3,36 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace DrawinLibrary
+namespace DrawingLibrary
 {
     public class Line : IElement
     {
+        /// <summary>
+        /// Element Properties
+        /// </summary>
         public ElementProperties Properties { get; set; }
 
-        #region Constructors
+        /// <summary>
+        /// Creates a new line from point (x1,y1) to (x2, y2),
+        /// only Horizontal and Vertical lines are supported
+        /// </summary>
+        /// <param name="x1">Starting point for X</param>
+        /// <param name="y1">Starting pint for Y</param>
+        /// <param name="x2">Ending Point for X</param>
+        /// <param name="y2">Ending Point for Y</param>
+        /// <param name="brush">character to be draw default is 'x'</param>
         public Line(int x1, int y1, int x2, int y2, string brush = "x")
         {
             this.Properties = new ElementProperties(x1, y1, x2, y2, brush);
         }
 
-        public Line(ElementProperties properties)
-        {
-            this.Properties = properties;
-        }
-        #endregion
-
         #region Public Methods
 
         /// <summary>
-        /// draws a line in a given canvas matrix
+        /// Draws a line in a given canvas matrix
         /// </summary>
-        /// <param name="canvas"></param>
-        /// <returns>canvas drawn</returns>
+        /// <param name="canvas">Canvas to draw</param>
+        /// <returns>Canvas drawn</returns>
         public string[,] DrawToCanvas(string[,] canvas)
         {
             if (this.IsValid(canvas))

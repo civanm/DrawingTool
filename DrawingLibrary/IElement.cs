@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DrawinLibrary
+namespace DrawingLibrary
 {
     /// <summary>
     /// Interface for Elements that can be added to the canvas

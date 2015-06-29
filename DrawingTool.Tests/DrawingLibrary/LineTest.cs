@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DrawinLibrary;
+using DrawingLibrary;
 
 namespace DrawingTool.Tests.Models
 {
@@ -97,7 +97,23 @@ namespace DrawingTool.Tests.Models
             Assert.AreEqual("x", drawnCanvas.GetValue(1, 2));
             Assert.AreEqual("x", drawnCanvas.GetValue(1, 3));
             Assert.AreEqual("x", drawnCanvas.GetValue(1, 4));
+        }
+        [TestMethod]
+        public void ShouldDrawAVerticalLine()
+        {
+            var canvas = new string[5, 5];
+            Line line = new Line(1, 1, 4, 1);
 
+            Assert.IsTrue(line.IsValid(canvas));
+
+            var drawnCanvas = line.DrawToCanvas(canvas);
+
+            Assert.IsNotNull(drawnCanvas);
+            Assert.IsNull(drawnCanvas.GetValue(0, 0));
+            Assert.AreEqual("x", drawnCanvas.GetValue(1, 1));
+            Assert.AreEqual("x", drawnCanvas.GetValue(2, 1));
+            Assert.AreEqual("x", drawnCanvas.GetValue(3, 1));
+            Assert.AreEqual("x", drawnCanvas.GetValue(4, 1));
         }
     }
 }

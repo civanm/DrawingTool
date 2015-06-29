@@ -126,12 +126,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DrawinLibrary\DrawinLibrary.csproj">
-      <Project>{a8be9209-add8-46dc-977d-88c5fe749c5e}</Project>
-      <Name>DrawinLibrary</Name>
+    <ProjectReference Include="..\DrawingLibrary\DrawingLibrary.csproj">
+      <Project>{e55264ce-9116-472e-840d-2da5542c8d07}</Project>
+      <Name>DrawingLibrary</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

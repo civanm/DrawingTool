@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DrawingTool;
-using DrawinLibrary;
+using DrawingLibrary;
 
 namespace DrawingTool.Tests.Models
 {
