@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingTool.Tests", "DrawinTool.Tests\DrawingTool.Tests.csproj", "{0556E03E-4AAB-4C50-B741-F9DDBBDF2F62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawinLibrary", "DrawinLibrary\DrawinLibrary.csproj", "{A8BE9209-ADD8-46DC-977D-88C5FE749C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDrawingApp", "ConsoleDrawingApp\ConsoleDrawingApp.csproj", "{92C24AA4-982F-44AC-AC31-9084A7533928}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingTool", "DrawinTool\DrawingTool.csproj", "{13DC26B5-53F1-4F90-8F81-6996AE884CCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0556E03E-4AAB-4C50-B741-F9DDBBDF2F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0556E03E-4AAB-4C50-B741-F9DDBBDF2F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0556E03E-4AAB-4C50-B741-F9DDBBDF2F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0556E03E-4AAB-4C50-B741-F9DDBBDF2F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BE9209-ADD8-46DC-977D-88C5FE749C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BE9209-ADD8-46DC-977D-88C5FE749C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BE9209-ADD8-46DC-977D-88C5FE749C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BE9209-ADD8-46DC-977D-88C5FE749C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92C24AA4-982F-44AC-AC31-9084A7533928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C24AA4-982F-44AC-AC31-9084A7533928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C24AA4-982F-44AC-AC31-9084A7533928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C24AA4-982F-44AC-AC31-9084A7533928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DC26B5-53F1-4F90-8F81-6996AE884CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DC26B5-53F1-4F90-8F81-6996AE884CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DC26B5-53F1-4F90-8F81-6996AE884CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DC26B5-53F1-4F90-8F81-6996AE884CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

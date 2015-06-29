@@ -1,0 +1,38 @@
+﻿<div id="body">
+    <section class="content-wrapper main-content clear-fix">
+
+        <div class="input-fields">
+            <h2>Input</h2>
+            <textarea id="text-input" rows="5">
+C 20 4,
+L 1 2 6 2,
+L 6 3 6 4,
+R 16 1 20 3,
+B 10 3 o
+            </textarea>
+
+
+            <button id="submit-command">Run Commands</button>
+
+            <div class="instructions">
+                <h6>Instructions</h6>
+                <ul>
+                    <li>Enter Lines of comand separated by comma (,)</li>
+                    <li>
+                        <b> C w h  -->  Create Canvas:</b> creates a new canvas of width w and height h.
+                    </li>
+                    <li><b> L x1 y1 x2 y2 --> Create Line:</b>  creates a new line from (x1,y1) to (x2,y2). Currently only horizontal or vertical lines are supported.</li>
+                    <li><b>R x1 y1 x2 y2 --> Create Rectangle:</b>    creates a new rectangle, whose upper left corner is (x1,y1) and lower right corner is (x2,y2)</li>
+                    <li><b>B x y c --> Bucket Fill:</b>  fills the entire area connected to (x,y) with 'colour' c.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="output-fields">
+            <h2>Output</h2>
+            <div id="results"></div>
+        </div>
+    </section>
+</div>
+@section Scripts {
+    <script src="~/Scripts/home.js"></script>
+}
